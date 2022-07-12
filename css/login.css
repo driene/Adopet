@@ -1,0 +1,12 @@
+.cadastro__form p {
+    margin: 0 auto;
+    color: var(--coral);
+    text-decoration: underline var(--coral);
+    padding: 0 0 1.5rem;
+    font-size: 0.75rem;
+}
+
+.botao__login {
+    margin-top: 1rem;
+    margin-bottom: 16rem;   
+}

@@ -1,0 +1,83 @@
+.cabecalho__body {
+    background-color: var(--branco);
+    background-image: 
+        url('../img/Forma1.svg'),
+        url('../img/Forma2.svg');
+    background-repeat: no-repeat;
+    background-position: top left, center right;
+    background-size: 85%, 20%;
+    min-height: 100vh;   
+}
+
+.cabecalho {
+    background-image: url('../img/Logo-creme.svg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 50% auto;
+    min-height: 45vh;   
+}
+
+.cabecalho__logo {
+    background-repeat: no-repeat;
+    content: url("../img/Logo-branca.svg");
+    height: auto;
+    padding: 3rem 2rem;
+    width: 6rem;
+}
+
+.cabecalho__home {
+    content: url("../img/Casa.svg");
+    margin-left: 3rem;
+    padding: 3rem 2rem;
+    margin-left: 1rem;
+}
+
+.cabecalho__contato {
+    content: url("../img/Mensagens.svg");
+    padding: 3rem 2rem;
+}
+
+@media screen and (max-width: 425px) {
+    .cabecalho__logo {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 426px) {
+    .cabecalho__body {
+        background-size: 70%, 18%;
+    }
+    
+    .cabecalho {       
+        background-size: 35% auto;
+        min-height: 60vh;
+    }
+
+    .cabecalho__home {
+        margin-left: 0;
+    }   
+}
+
+
+@media screen and (min-width: 769px) {
+    .cabecalho__body {
+        background-size: 40%, 10%;
+    }
+    
+    .cabecalho {       
+        background-size: 25% auto;
+        min-height: 30vh;
+    }
+
+    .cabecalho__logo {
+        margin-left: 3rem;
+    }
+
+     .cabecalho__home {
+        padding: 3rem 0.5rem;        
+    }
+    
+    .cabecalho__contato {
+        padding: 3rem 2rem;
+    }
+}

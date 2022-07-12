@@ -1,0 +1,112 @@
+.cabecalho__body__logado {
+    background-color: var(--branco);
+    background-image: 
+        url('../img/Forma1.svg');
+    background-repeat: no-repeat;
+    background-position: top left, center right;
+    background-size: 85%;
+    min-height: 100vh; 
+}
+
+.cabecalho__logado {    
+    display: flex;
+    align-items: center;
+    justify-content:space-between;   
+}
+
+
+.cabecalho__logo__logado {
+    background-repeat: no-repeat;
+    content: url("../img/Logo-branca.svg");
+    height: auto;
+    padding: 3rem 2rem;
+    width: 6rem;
+}
+
+.cabecalho__home__logado {
+    content: url("../img/Casa.svg");
+    margin-left: 2rem;
+    padding: 3rem 2rem;
+   /*  margin-left: 1rem; */
+}
+
+.cabecalho__contato__logado {
+    content: url("../img/Mensagens.svg");
+    padding: 3rem 2rem;
+}
+
+
+.cabecalho__usuario__logado {
+    content: url('../img/Usuario.png');
+    padding: 0 1rem;
+    margin-left: auto;
+    width: 3rem;
+}
+
+@media screen and (max-width: 425px) {
+    .cabecalho__logo__logado {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 426px) {
+    .cabecalho__body__logado {      
+        background-color: var(--branco);
+        background-image: 
+            url('../img/Forma1.svg');
+        background-repeat: no-repeat;
+        background-position: top left;
+        background-size: 70%;
+        min-height: 100vh; 
+    }
+    
+    .cabecalho__logado {       
+        background-size: 35% auto;
+        min-height: 30vh;
+    }
+
+    .cabecalho__home__logado {
+        margin-left: 0;
+    }   
+
+    .cabecalho__usuario__logado {
+        padding-right: 2rem;
+    }
+}
+
+
+@media screen and (min-width: 769px) {
+    .cabecalho__body__logado {      
+        background-color: var(--branco);
+        background-image: 
+            url('../img/Forma1.svg'),
+            url('../img/Forma2.svg');
+        background-repeat: no-repeat;
+        background-position: top left, center right;
+        background-size: 40%, 9%;
+        min-height: 100vh; 
+        
+       
+    }
+    
+    .cabecalho__logado {       
+        background-size: 25% auto;
+        min-height: 20vh;
+    }
+
+    .cabecalho__logo__logado {
+        margin-left: 3rem;
+    }
+
+     .cabecalho__home__logado {
+        padding: 3rem 0.5rem;        
+    }
+    
+    .cabecalho__contato__logado {
+        padding: 3rem 2rem;
+    }
+
+    .cabecalho__usuario__logado {
+        padding-right: 8rem;
+    }
+}

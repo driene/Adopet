@@ -1,0 +1,42 @@
+:root {
+    font-family: 'Poppins', sans-serif;
+    
+    --azul: #3772FF;
+    --branco: #FFFFFF;
+    --cinza-claro: #F6F6F6;    
+    --cinza-escuro: #FCF0E3;
+    --cinza-medio: #BCBCBC;
+    --cinza-texto: #737380; 
+    --coral: #FC7071;
+    --coral-claro: #FF9D9E;
+    --creme: #FCF0E3;
+    --verde: #36D6AD;
+}
+
+.cabecalho__body {    
+    background-image: 
+        url('../img/Forma1.svg');    
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 85%;
+    min-height: 100vh;   
+}
+
+
+.botao {
+    background-color: var(--coral);
+    border: none;
+    border-radius: 6px;
+    color: var(--creme);  
+    cursor: pointer; 
+    margin: 0 auto 1rem;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.5s;   
+    width: 11.5rem;
+}
+
+.botao:hover {
+    background-color: var(--coral-claro);    
+}
