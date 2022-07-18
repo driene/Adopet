@@ -3,7 +3,7 @@
     background-image: 
         url('../img/Forma1.svg');
     background-repeat: no-repeat;
-    background-position: top left, center right;
+    background-position: top left;
     background-size: 85%;
     min-height: 100vh; 
 }
@@ -43,7 +43,7 @@
     width: 3rem;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 426px) {
     .cabecalho__logo__logado {
         display: none;
     }
@@ -51,13 +51,13 @@
 
 @media screen and (min-width: 426px) {
     .cabecalho__body__logado {      
-        background-color: var(--branco);
+        /* background-color: var(--branco);
         background-image: 
             url('../img/Forma1.svg');
         background-repeat: no-repeat;
-        background-position: top left;
+        background-position: top left; */
         background-size: 70%;
-        min-height: 100vh; 
+      /*   min-height: 100vh;  */
     }
     
     .cabecalho__logado {       
@@ -83,10 +83,8 @@
             url('../img/Forma2.svg');
         background-repeat: no-repeat;
         background-position: top left, center right;
-        background-size: 40%, 9%;
-        min-height: 100vh; 
-        
-       
+        background-size: 40%, 10%;
+        min-height: 100vh;        
     }
     
     .cabecalho__logado {       

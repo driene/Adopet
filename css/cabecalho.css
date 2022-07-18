@@ -6,7 +6,10 @@
     background-repeat: no-repeat;
     background-position: top left, center right;
     background-size: 85%, 20%;
-    min-height: 100vh;   
+    min-height: 100vh; 
+    /* 
+    display:flex; 
+  flex-direction:column; */
 }
 
 .cabecalho {
@@ -14,30 +17,30 @@
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: 50% auto;
-    min-height: 45vh;   
+    min-height: 30vh;   
 }
 
 .cabecalho__logo {
     background-repeat: no-repeat;
     content: url("../img/Logo-branca.svg");
     height: auto;
-    padding: 3rem 2rem;
+    padding: 3rem 1.8rem;
     width: 6rem;
 }
 
 .cabecalho__home {
     content: url("../img/Casa.svg");
-    margin-left: 3rem;
-    padding: 3rem 2rem;
+    /* margin-left: 3rem; */
+    padding: 3rem 1.8rem;
     margin-left: 1rem;
 }
 
 .cabecalho__contato {
     content: url("../img/Mensagens.svg");
-    padding: 3rem 2rem;
+    padding: 3rem 1.8rem;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 426px) {
     .cabecalho__logo {
         display: none;
     }
@@ -50,7 +53,7 @@
     
     .cabecalho {       
         background-size: 35% auto;
-        min-height: 60vh;
+        min-height: 45vh;
     }
 
     .cabecalho__home {

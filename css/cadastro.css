@@ -10,14 +10,17 @@
         url('../img/Forma1.svg'),
         url('../img/Forma2-ivertida.svg');
     background-repeat: no-repeat;
-    background-position: top right, top left, /* center left */ bottom 30% left;
+    background-position: top right, top left, center left /* bottom 30% left */;
     background-size: 33%, 85%, 20%;  
     min-height: 100vh;   
+
+    /* display:flex; 
+  flex-direction:column; */
 }
 
 .cabecalho {
     background-image: url('../img/Logo-azul.svg');
-    min-height:45vh;
+    /* min-height:30vh; */
 }
 
 .cadastro__chamada {
@@ -39,12 +42,13 @@
 .cadastro label {
     color: var(--cinza-texto);
     display: block;
+    font-weight: 600;
     padding: 0.5rem;
     position: relative;
     text-align: center;
 }
 
-.cadastro input {
+.cadastro__form__input {
     background-color: var(--cinza-claro);border: none;
     border-radius: 6px;
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
@@ -58,7 +62,7 @@
 .cadastro__form span {
     position: absolute;
     right: 4%;
-    top: 130%;
+    top: 127%;
 }
 
 .cadastro input::placeholder {
@@ -82,25 +86,29 @@
             url('../img/Forma1.svg'),
             url('../img/Forma2.svg');
         background-repeat: no-repeat;
-        background-position: top right, top left, bottom 35% right;
-        background-size: 30%, 70%, 18%;       
+        background-position: top right, top left, center right;
+        background-size: 25%, 70%, 18%;       
     }
 
     .cabecalho {
         background-image: url('../img/Logo-azul.svg');
-        min-height: 55vh;
+        min-height: 45vh;
     }
 }
 
 @media screen and (min-width: 769px) {
     .cabecalho__body {
-        background-position: top right, top left, bottom 35% right;
-        background-size: 15%, 40%, 9%;       
+        background-position: top right, top left, center right;
+        background-size: 15%, 40%, 10%;       
     }
 
     .cabecalho {
         background-image: url('../img/Logo-azul.svg');
-        min-height: 25vh;
+        min-height: 30vh;
+    }    
+
+    .cadastro__form__input--maior {
+        width: 34.5rem;
     }
 }
 
