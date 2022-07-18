@@ -46,16 +46,6 @@
 }
 
 @media screen and (min-width: 426px) {
- /*    .cabecalho__body__logado {      
-        background-color: var(--branco);
-        background-image: 
-            url('../img/Forma1.svg'),
-            url('../img/Forma2.svg');
-        background-repeat: no-repeat;
-        background-position: top left, bottom 35% right;
-        background-size: 70%, 18%;        
-    } */
-    
     .mensagem__chamada {      
         padding-top: 3.5rem;
     }
@@ -66,23 +56,6 @@
 }
 
 @media screen and (min-width: 769px) {
-    /* .cabecalho__body__logado {      
-        background-size: 40%, 9%;           
-    }
-    
-    .cabecalho__logado {       
-        background-size: 25% auto;
-        min-height: 20vh;
-    }
-
-    .cabecalho__home__logado {
-        padding: 3rem 0.5rem;        
-    }
-    
-    .cabecalho__contato__logado {
-        padding: 3rem 2rem;
-    } */
-    
     .mensagem__chamada {
         padding: 1.5rem 1rem;
         width: 30rem;

@@ -10,17 +10,13 @@
         url('../img/Forma1.svg'),
         url('../img/Forma2-ivertida.svg');
     background-repeat: no-repeat;
-    background-position: top right, top left, center left /* bottom 30% left */;
+    background-position: top right, top left, center left;
     background-size: 33%, 85%, 20%;  
     min-height: 100vh;   
-
-    /* display:flex; 
-  flex-direction:column; */
 }
 
 .cabecalho {
     background-image: url('../img/Logo-azul.svg');
-    /* min-height:30vh; */
 }
 
 .cadastro__chamada {
@@ -111,12 +107,3 @@
         width: 34.5rem;
     }
 }
-
-
-
-/* .nao-ver {
-    background-image: url("../img/Nao-ver.svg");
-    background-repeat: no-repeat;
-    background-position: center right 5%;
-    background-size: auto; 
-} */

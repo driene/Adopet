@@ -7,9 +7,6 @@
     background-position: top left, center right;
     background-size: 85%, 20%;
     min-height: 100vh; 
-    /* 
-    display:flex; 
-  flex-direction:column; */
 }
 
 .cabecalho {
@@ -30,9 +27,8 @@
 
 .cabecalho__home {
     content: url("../img/Casa.svg");
-    /* margin-left: 3rem; */
-    padding: 3rem 1.8rem;
     margin-left: 1rem;
+    padding: 3rem 1.8rem;
 }
 
 .cabecalho__contato {

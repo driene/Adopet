@@ -5,7 +5,6 @@
     width: 3rem;
 }
 
-
 .perfil__chamada {
     color: var(--azul);
     font-weight: 400;
@@ -44,7 +43,6 @@
     display: block;
     padding: 0.5rem;
 }
-
 
 .perfil__form label {
     color: var(--azul);
